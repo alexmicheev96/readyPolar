@@ -1,0 +1,27 @@
+@import 'base/variables.scss';
+@import 'base/animations.scss';
+@import 'blocks/promo.scss';
+@import 'blocks/header.scss';
+@import 'blocks/buttons.scss';
+@import 'blocks/advantages.scss';
+@import 'blocks/consultation.scss';
+@import 'blocks/title.scss';
+@import 'blocks/forms.scss';
+@import 'blocks/carousel.scss';
+@import 'blocks/catalog.scss';
+@import 'blocks/reviews.scss';
+@import 'blocks/footer.scss';
+@import 'blocks/modal.scss';
+@import 'blocks/pageup.scss';
+
+
+* {
+    font-family: 'Museo Sans', sans-serif;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+    position: relative;
+}
+@import 'blocks/media.scss';
