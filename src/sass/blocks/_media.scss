@@ -2,15 +2,19 @@
 }
 @media (max-width: 991px) {
     .promo {
+        min-height: 560px;
         padding: 21px 20px 70px;
         &__wrapper {
             margin-top: 60px;
         }
         &__subheader {
-            margin-top: 0px;
+            margin-top: 10px;
         }
         &__icons {
             margin-top: 40px;
+        }
+        &__link {
+            margin-top: 10px;
         }
     }
     .header {
@@ -24,9 +28,14 @@
         }
     }
     .advantages {
-        padding: 50px 0 60px 0;
+        min-height: 420px;
+        padding: 50px 0 55px 0;
         &__section {
             width: 750px;
+        }
+        &__text {
+            margin-top: 12px;
+            font-size: 12px;
         }
     }
     .consultation {
@@ -48,6 +57,7 @@
     .feed-form {
         margin: 0 auto;
         margin-top: 30px;
+        width: 290px;
     }
     .catalog {
         &__content {
@@ -85,19 +95,33 @@
             display: none;
         }
         &__logo {
-            width: 270px;
+            width: 215px;
+        }
+        &__phone {
+            font-size: 14px;
         }
     }
     .promo {
+        padding: 21px 20px 60px;
+        min-height: 485px;
         &__wrapper {
             align-items: center;
-            margin-top: 50px;
+            margin-top: 20px;
         }
         &__header {
             font-size: 32px;
         }
         &__subheader {
-            font-size: 18px;
+            font-size: 16px;
+            margin-top: 0px;
+        }
+        &__icons {
+            margin-top: 25px;
+        }
+        &__link {
+            a {
+                font-size: 12px;
+            }
         }
     }
     .advantages {
@@ -190,8 +214,8 @@
 }
 @media (max-width: 575px) {
     .promo {
-        min-height: 490px;
-        padding: 50px 10px 50px;
+        min-height: 400px;
+        padding: 20px 10px 20px;
         &__header {
             font-size: 23px;
         }
@@ -199,7 +223,7 @@
             display: none;
         }
         &__wrapper {
-            margin-top: 30px;
+            margin-top: 20px;
         }
         &__icons {
             width: 300px;
@@ -231,7 +255,7 @@
         }
         &_subbmit {
             display: block;
-            width: 300px;
+            width: 100%;
         }
         &_mini {
             display: block;
@@ -251,6 +275,10 @@
         &__box {
             width: 240px;
             margin-top: 15px;
+            
+        }
+        &__text {
+            margin-top: 5px;
         }
     }
     .consultation {
@@ -259,6 +287,11 @@
         &__descr {
             margin-top: 25px;
 
+        }
+        .feed-form {
+            .button {
+                margin-top: 0px;
+            }
         }
     }
     .title {

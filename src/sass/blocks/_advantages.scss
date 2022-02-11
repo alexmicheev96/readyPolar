@@ -12,6 +12,7 @@
         }
     }
     &__section {
+        margin: 0 auto;
         margin-top: 65px;
         display: flex;
         justify-content: space-between;
@@ -20,9 +21,9 @@
     &__box {
         width: 240px;
         img {
+            display: block;
             width: 70px;
             height: 70px;
-            display: block;
             margin: 0 auto;
         }  
     }

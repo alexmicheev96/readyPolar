@@ -9,19 +9,19 @@ $(document).ready(function(){
             {
               breakpoint: 992,
               settings: {
-                dots: false,
+                dots: true,
                 arrows: false,
                 autoplay: true,
-                autoplaySpeed: 400
+                autoplaySpeed: 2500
               }
             },
             {
                 breakpoint: 600,
                 settings: {
-                  dots: false,
+                  dots: true,
                   arrows: false,
                   autoplay: true,
-                  autoplaySpeed: 300
+                  autoplaySpeed: 1500
                 }
               },
           ]

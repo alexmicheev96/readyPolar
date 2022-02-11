@@ -1,3 +1,4 @@
+@import '../base/mixins';
 .button {
     margin-top: 8px;
     width: 150px;
@@ -6,12 +7,12 @@
     border-radius: 5px;
     border: none;
     font-size: 12px;
-    line-height: 1.2;
     font-weight: 500;
     text-transform: uppercase;
     color: #ffffff;
     &:hover {
-        box-shadow: inset 0px -3px 3px 1px orangered;
+        cursor: pointer;
+        @include effectBtn
     }
     &_main {
         margin-top: 68px;
@@ -28,5 +29,5 @@
         width: 131px;
         height: 40px;
         font-size: 14px;
-    }
+    } 
 }
